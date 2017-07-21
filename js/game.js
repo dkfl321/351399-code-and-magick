@@ -1,5 +1,6 @@
 'use strict';
 
+
 window.GameConstants = {
   Fireball: {
     size: window.fireballSize || 24,
@@ -812,3 +813,4 @@ window.Game = (function () {
 
   return game;
 })();
+
