@@ -1,6 +1,5 @@
 'use strict';
 
-
 window.GameConstants = {
   Fireball: {
     size: window.fireballSize || 24,
@@ -461,7 +460,7 @@ window.Game = (function () {
           message = 'Добро пожаловать!\nНажмите Пробел для начала игры';
           break;
       }
-
+      console.log(message);
       this._drawMessage(message);
     },
 

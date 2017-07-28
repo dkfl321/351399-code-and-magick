@@ -184,11 +184,12 @@
 
     // Скорость фаербола
     var getFireballSpeed = function(left){
-      if(left) {
-        return 5;
-      } else {
-        return 2;
-      }
+//      if(left) {
+//        return 5;
+//      } else {
+//        return 2;
+//      }
+      return left ?  5 : 2;
     }
 
     // Ширина игровой области
@@ -202,6 +203,7 @@
     }
 
   </script>
+  <script src="js/stat.js"></script>
   <script src="js/game.js"></script>
 
 </body>
